@@ -1,0 +1,372 @@
+body {
+  margin: 0%;
+  width: 100%;
+  background-color: white;
+  overflow-x:hidden;
+}
+
+.main {
+  width: 100%;
+  height: 1000px;
+}
+
+.nav{
+  width: 100%;
+  height: 150px;
+  background: rgb(251,33,2);
+  background: linear-gradient(90deg, #ef3c23 0%, #00485e 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav h1{
+  color: white;
+}
+
+.links{
+  margin-top: 20px;
+  position: relative;
+}
+
+.links a{
+ color: white;
+ text-decoration: none;
+ margin-left: 5px;
+ margin-right: 5px;
+}
+
+.line{
+  width: 300px;
+  height: 2px;
+  background-color: whitesmoke;
+}
+
+.eerste {
+  background-color: black;
+  background-image: url(img/snowworld-zonnepanelen.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.eerste1 {
+  height: 400px;
+  width: 700px;
+  background-color: rgba(245, 245, 245, 0.7);
+  border-radius: 8px;
+}
+
+.tweede {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Kanit', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 20px;
+}
+
+.tweede1  {
+  width: 23%;
+  height: 600px;
+  background-color: whitesmoke;
+  background-image: url(img/MicrosoftTeams-image\ \(6\).png);
+  background-size: 210%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tweede1-1 {
+  width: 85%;
+  height: 75%;
+  background-color: none;
+  border-radius: 7px;
+}
+
+.tweede2-1 {
+  width: 85%;
+  height: 75%;
+  background-color: none;
+  border-radius: 7px;
+}
+
+.tweede3-1 {
+  width: 85%;
+  height: 75%;
+  background-color: none;
+  border-radius: 7px;
+}
+
+.tweede4-1 {
+  width: 85%;
+  height: 75%;
+  background-color: none;
+  border-radius: 7px;
+}
+
+
+.tweede2 {
+  width: 23%;
+  height: 600px;
+  background-color: none;
+  background-image: url(img/MicrosoftTeams-image\ \(7\).png);
+  background-position: 50%;
+  background-size: 210%;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tweede3 {
+  width: 23%;
+  height: 600px;
+  background-color: whitesmoke;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(img/MicrosoftTeams-image\ \(4\).png);
+  background-size: 210%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tweede4  {
+  width: 23%;
+  height: 600px;
+  background-color: whitesmoke;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(img/MicrosoftTeams-image\ \(7\)2.png);
+  background-size: 210%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tweede {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Media query voor 4 divs naast elkaar (tweede) */
+@media screen and (max-width: 900px) {
+  .tweede, .tweede1, .tweede2, .tweede3, .tweede4 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 200%;
+  }
+}
+
+.derde {
+  width: 100%;
+  background-color: none;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.derde-boven {
+  width: 100%;
+  height: 400px;
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.derde-onder {
+  width: 100%;
+  height: 400px;
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.derde-boven1 {
+  width: 35%;
+  height: 400px;
+  background-color: #ef3c23;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-bottom-right-radius:  40px;
+  border-top-left-radius: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.derde-boven1-button1{
+  color: white;
+  text-decoration: none;
+}
+
+.derde-boven2-button1{
+  color: white;
+  text-decoration: none;
+}
+
+.derde-onder1-button1{
+  color: white;
+  text-decoration: none;
+}
+
+.derde-onder2-button1{
+  color: white;
+  text-decoration: none;
+}
+
+.derde-boven2 {
+  width: 35%;
+  height: 400px;
+  background-color: #00485e;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.derde-onder1 {
+  width: 35%;
+  height: 400px;
+  background-color: #00485e;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.derde-onder2 {
+  width: 35%;
+  height: 400px;
+  background-color: #ef3c23;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Media query voor 4 divs naast elkaar (tweede) */
+@media screen and (max-width: 768px) {
+  .derde, .derde-boven, .derde-onder{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .derde-boven1,.derde-boven2,.derde-onder1,.derde-onder2{
+    width: 80%;
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 200%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .foto1,.foto2,.foto3,.foto4{
+    scale: 100%;
+  }
+}
+
+.footer{
+  width: 100%;
+  height: 100px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(251,33,2);
+  background: linear-gradient(90deg, #00485e 0%, #ef3c23 100%);
+  color: white;
+}
+
+.foto1,.foto2,.foto3,.foto4 {
+  width: 80%;
+}
+
+
+.eerste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.titel1 {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
